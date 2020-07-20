@@ -1,0 +1,21 @@
+/* Top Section */
+selector:after{
+    content: '';
+    width: 617px;
+    height: 100%;
+    background-color: #FFCEB8;
+    position: absolute;
+    top: 0;
+    right: 8%;
+    z-index: -1px;
+}
+@media screen and (max-width: 1025px){
+ selector:after{
+   width: 317px;
+  }  
+}
+@media screen and (max-width: 767px){
+  selector:after{
+    width:44%;
+  }  
+}
